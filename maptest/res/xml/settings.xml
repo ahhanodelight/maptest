@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/map_settings">
+
+        <EditTextPreference
+                android:title="@string/map_zoom"
+                android:summary="4~20"
+                android:key="map_zoom"
+                android:defaultValue="18"/>
+
+        <EditTextPreference
+                android:title="@string/update_time"
+                android:key="update_time"
+                android:defaultValue="5000"/>
+
+        <EditTextPreference
+                android:title="@string/line_width"
+                android:key="line_width"
+                android:defaultValue="10"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/run_settings">
+        <EditTextPreference
+                android:title="@string/weight"
+                android:summary="kg"
+                android:key="weight"
+                android:defaultValue="60"/>
+
+        <CheckBoxPreference
+                android:title="@string/music"
+                android:key="isOpenMusic"
+                android:checked="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

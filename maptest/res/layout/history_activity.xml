@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/history">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/history_record"
+            android:minHeight="50dp"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:alpha="0.4"/>
+
+    <include layout="@layout/history_item"/>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:id="@+id/history_list"
+            android:divider="#00000000"
+            android:fadingEdge="none"
+            android:scrollingCache="false">
+    </ListView>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/history_clear"
+            android:text="@string/clear"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

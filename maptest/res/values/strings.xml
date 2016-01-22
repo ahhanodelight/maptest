@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">maptest</string>
+    <string name="time_format">耗时：%s</string>
+    <string name="speed">速度</string>
+    <string name="distance">里程</string>
+    <string name="energy">热量</string>
+    <string name="date">日期</string>
+    <string name="time">耗时</string>
+    <string name="history_record">历史记录</string>
+    <string name="start_running">开始跑步</string>
+    <string name="set_plan">设定计划</string>
+    <string name="running">Runner 运行中</string>
+    <string name="clear">清空</string>
+    <string name="settings">设置</string>
+    <string name="map_settings">地图设置</string>
+    <string name="map_zoom">地图缩放级别</string>
+    <string name="update_time">更新时间</string>
+    <string name="line_width">线宽</string>
+    <string name="line_color">线色</string>
+    <string name="run_settings">跑步设置</string>
+    <string name="weight">体重</string>
+    <string name="music">是否打开音乐</string>
+    <string name="pause">暂停</string>
+    <string name="play">播放</string>
+    <string name="next_music">下一首</string>
+    <string name="cant_find_music">未找到音乐！</string>
+    <string name="once_more">再按一次退出程序</string>
+    <string name="date_format_1">yyyy-MM-dd HH:mm</string>
+    <string name="alert">提示</string>
+    <string name="is_delete">是否删除？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="weather">天气</string>
+
+</resources>
